@@ -7,6 +7,18 @@ AI Career Mentor is a career coaching platform that helps users improve their ca
 The goal of this project is to provide personalized career guidance by combining structured career data with AI-powered recommendations.
 
 ---
+## 🚀 Highlights
+
+- 🤖 AI-powered Career Development Platform
+- ☁️ Built with OutSystems Developer Cloud (ODC)
+- 📊 Career Analytics Dashboard
+- 🎯 Personalized Learning Missions
+- 💼 Job Matching System
+- 📄 Resume Management
+- 🎤 Interview Preparation
+- 🔐 Role-based Authorization
+  
+---
 
 # 📌 Features
 
@@ -83,6 +95,29 @@ The goal of this project is to provide personalized career guidance by combining
 
 ---
 
+# 🔄 Application Workflow
+
+Career Goal
+      ↓
+User Skills
+      ↓
+Skill Assessment
+      ↓
+Learning Missions
+      ↓
+Study History
+      ↓
+Interview Sessions
+      ↓
+Resume Optimization
+      ↓
+Career Readiness
+      ↓
+AI Recommendation
+      ↓
+Job Matching
+
+---
 # 🤖 AI Features
 
 The application is designed around AI-assisted career coaching.
@@ -126,6 +161,46 @@ Static Entities
 - AssessmentType
 - DifficultyLevel
 - SuggestionStatus
+
+Project Architecture
+
+                     User
+      ┌──────────────┼──────────────┐
+      │              │              │
+      ▼              ▼              ▼
+  Career        UserSkill        Resume
+      │              │              │
+      ▼              ▼              │
+LearningMission  SkillAssessment    │
+      │                             │
+      ▼                             │
+StudyHistory                         │
+                                    ▼
+                           InterviewSession
+                                    │
+                                    ▼
+                           InterviewQuestion
+
+Career
+    │
+    ▼
+CareerReadinessScore
+
+MasterSkill
+      │
+      ▼
+ UserSkill
+      │
+      ▼
+ JobPostingSkill
+      ▲
+      │
+ JobPosting
+
+User
+ │
+ ▼
+SkillSuggestion  
 
 ---
 
