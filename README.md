@@ -162,27 +162,29 @@ Static Entities
 - DifficultyLevel
 - SuggestionStatus
 
-Project Architecture
+## 🏗 Project Architecture
 
+```text
                      User
       ┌──────────────┼──────────────┐
       │              │              │
       ▼              ▼              ▼
-  Career        UserSkill        Resume
-      │              │              │
-      ▼              ▼              │
-LearningMission  SkillAssessment    │
-      │                             │
-      ▼                             │
-StudyHistory                         │
-                                    ▼
-                           InterviewSession
-                                    │
-                                    ▼
-                           InterviewQuestion
+   Career        UserSkill       Resume
+      │              │
+      ▼              ▼
+LearningMission SkillAssessment
+      │
+      ▼
+ StudyHistory
+
+InterviewSession
+      │
+      ▼
+InterviewQuestion
+
 Career
-    │
-    ▼
+   │
+   ▼
 CareerReadinessScore
 
 MasterSkill
@@ -191,7 +193,7 @@ MasterSkill
  UserSkill
       │
       ▼
- JobPostingSkill
+JobPostingSkill
       ▲
       │
  JobPosting
@@ -199,8 +201,8 @@ MasterSkill
 User
  │
  ▼
-SkillSuggestion  
-
+SkillSuggestion
+```
 ---
 
 # 📱 Main Screens
