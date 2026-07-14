@@ -174,6 +174,8 @@ Role-based authorization
 
 - Admin
 - User
+
+  
   <img width="366" height="651" alt="image" src="https://github.com/user-attachments/assets/6e61ee47-4902-4c0c-be00-0886fabf1d3e" />
 
 
