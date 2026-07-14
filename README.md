@@ -222,3 +222,9 @@ Developed by **Jongmin Kang**
 OutSystems Developer Cloud Project
 
 AI-powered Career Development Platform
+
+## 🌐 Live Demo
+
+You can explore the application here:
+
+https://personal-uueb45n0-dev.outsystems.app/CareerPathAI
