@@ -8,11 +8,7 @@ The goal of this project is to provide personalized career guidance by combining
 
 AI Career Mentor는 AI 기반 커리어 관리 플랫폼입니다.
 
-사용자가 자신의 커리어 목표를 설정하고, 현재 보유한 기술과 목표 기술을 관리하며, 학습 미션과 면접 준비, 이력서 관리까지 하나의 플랫폼에서 진행할 수 있도록 개발했습니다.
 
-데이터 모델은 MasterSkill과 UserSkill을 분리하여 정규화했고, Career, LearningMission, StudyHistory, InterviewSession 등을 서로 연결하여 커리어 성장 과정을 하나의 흐름으로 관리할 수 있도록 설계했습니다.
-
-Dashboard에서는 Career Readiness와 학습 현황을 시각화하여 사용자가 현재 상태를 쉽게 파악할 수 있도록 했으며, 향후에는 OpenAI API를 연동하여 AI가 학습 방향과 커리어를 추천하는 기능까지 확장할 계획입니다.
 
 ---
 ## 🚀 Highlights
