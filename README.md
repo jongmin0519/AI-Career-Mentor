@@ -164,44 +164,30 @@ Static Entities
 
 ## 🏗 Project Architecture
 
-```text
-                     User
-      ┌──────────────┼──────────────┐
-      │              │              │
-      ▼              ▼              ▼
-   Career        UserSkill       Resume
-      │              │
-      ▼              ▼
-LearningMission SkillAssessment
-      │
-      ▼
- StudyHistory
+```mermaid
+graph TD
 
-InterviewSession
-      │
-      ▼
-InterviewQuestion
+User --> Career
+User --> UserSkill
+User --> Resume
+User --> InterviewSession
+User --> StudyHistory
+User --> SkillSuggestion
+User --> CareerReadinessScore
 
-Career
-   │
-   ▼
-CareerReadinessScore
+Career --> LearningMission
 
-MasterSkill
-      │
-      ▼
- UserSkill
-      │
-      ▼
-JobPostingSkill
-      ▲
-      │
- JobPosting
+MasterSkill --> UserSkill
+UserSkill --> SkillAssessment
+UserSkill --> LearningMission
+UserSkill --> StudyHistory
 
-User
- │
- ▼
-SkillSuggestion
+InterviewSession --> InterviewQuestion
+
+JobPosting --> JobPostingSkill
+MasterSkill --> JobPostingSkill
+
+Career --> CareerReadinessScore
 ```
 ---
 
