@@ -15,6 +15,7 @@ AI Career Mentor는 AI 기반 커리어 관리 플랫폼입니다.
 데이터 모델은 MasterSkill과 UserSkill을 분리하여 정규화했고, Career, LearningMission, StudyHistory, InterviewSession 등을 연결하여 커리어 성장 과정을 하나의 흐름으로 관리하도록 설계했습니다.
 
 Dashboard에서는 Career Readiness와 학습 현황을 시각화하여 사용자가 현재 상태를 쉽게 파악할 수 있도록 했으며, 향후에는 OpenAI API를 연동하여 AI가 학습 방향과 커리어를 추천하는 기능까지 확장할 계획입니다.
+
 ---
 ## 🚀 Highlights
 
